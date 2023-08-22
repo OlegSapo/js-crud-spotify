@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4px;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card__title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.card__subtitle {
+  font-size: 14px;
+  font-style: normal;
+}
+
+.card_action {
+  background-color: blue;
+  padding: 8px;
+  border-radius: 8px;
+  align-self: center;
+  justify-self: center;
+  transition: opacity 0.3s ease;
+}
+
+.card_action:hover {
+  opacity: 0.7;
+}
+
+.card__button {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
